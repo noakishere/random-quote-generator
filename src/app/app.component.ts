@@ -7,15 +7,5 @@ import Quotes from '../assets/quotes.json';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'random-quote';
-  public newQuote: string = '';
-
-  constructor() {
-    this.generateNewQuote();
-  }
-
-  public generateNewQuote(): void {
-    this.newQuote =
-      Quotes.quotes[Math.floor(Math.random() * Quotes.quotes.length)].quote;
-  }
+  constructor() {}
 }

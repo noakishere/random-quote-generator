@@ -1,0 +1,17 @@
+.myQuote {
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+}
+
+#padMe {
+  /* padding: 1.5rem; */
+  width: 25%;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(4, 199, 4);
+}

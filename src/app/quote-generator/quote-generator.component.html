@@ -1,0 +1,28 @@
+<!-- <div class="ui segment container"> -->
+<div id="padMe" class="ui card container">
+  <div class="content">
+    <!-- <i class="right floated like icon"></i> -->
+    <h3 class="header">{{ newQuoteAuthor }}:</h3>
+    <p class="myQuote">''{{ newQuote }}</p>
+  </div>
+  <div class="extra content">
+    <span class="right floated twitter">
+      <a (click)="sendTwitter()"><i class="twitter icon"></i></a>
+    </span>
+    <span class="left floated redo">
+      <a (click)="generateNewQuote()"><i class="redo icon"></i></a>
+    </span>
+  </div>
+</div>
+<div class="ui container center aligned">
+  <p>
+    <a
+      target="_blank"
+      href="https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine"
+      >random quote generator</a
+    >
+    made by
+    <a target="_blank" href="https://github.com/noakishere">kamyar</a>
+  </p>
+</div>
+<!-- </div> -->
