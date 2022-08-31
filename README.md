@@ -1,6 +1,6 @@
 # RandomQuote
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+This project is based on Freecodecamp's challenge "Random Quote Generator" at https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine
 
 ## Development server
 
